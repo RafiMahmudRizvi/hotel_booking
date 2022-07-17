@@ -1,0 +1,155 @@
+.header {
+    background-color: var(--color_primary);
+    color: white;
+    display: flex;
+    justify-content: center;
+    position: relative;
+    z-index: 2;
+
+}
+
+.header__container {
+    width: 100%;
+    max-width: 1024px;
+    margin: 1.25rem 0 6rem 0;
+
+}
+
+.header__container.list--mode {
+    margin: 1.25rem 0 0 0;
+}
+
+.header__list {
+    display: flex;
+    gap: 2.5rem;
+    margin-bottom: 3rem;
+}
+
+.header__list__item {
+    display: flex;
+    gap: 0.3rem;
+    align-items: center;
+    cursor: pointer;
+}
+
+.header__list__item.active {
+    border: 1px solid white;
+    border-radius: 1.25rem;
+    padding: 0.5rem;
+}
+
+.header__titel {
+    font-size: 3rem;
+}
+
+.header__description {
+    margin: 1.25rem 0;
+    font-size: 1.3rem;
+}
+
+.header__btn {
+    background-color: var(--color_secondery);
+    border: none;
+    color: white;
+    font-weight: 500;
+    padding: 0.6rem;
+    cursor: pointer;
+}
+
+.header__search {
+    color: lightgray;
+    height: 1.8rem;
+    background-color: white;
+    border: 3px solid #febb02;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 1.5rem 1.5rem;
+    border-radius: 5px;
+    position: absolute;
+    bottom: -25px;
+    width: 100%;
+    max-width: 64rem;
+
+}
+
+.header__search__item {
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+    position: relative;
+}
+
+/* .header__search__icon {} */
+
+.header__search__input {
+    border: none;
+    outline: none;
+}
+
+::placeholder {
+    font-size: 16px;
+    color: lightgray;
+
+}
+
+.header__search__text {
+    cursor: pointer;
+}
+
+.date {
+    position: absolute;
+    top: 45px;
+    border: 1px solid lightgray;
+}
+
+.options {
+    position: absolute;
+    top: 50px;
+    color: gray;
+    background-color: white;
+    border-radius: 5px;
+    box-shadow: 0px 0px 10px -5px rgba(0, 0, 0, 0.4);
+    -webkit-box-shadow: 0px 0px 10px -5px rgba(0, 0, 0, 0.4);
+    -moz-box-shadow: 0px 0px 10px -5px rgba(0, 0, 0, 0.4);
+    padding: 10px;
+
+}
+
+.options_item {
+    width: 200px;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 3px;
+
+}
+
+.options__text {}
+
+.option__counter {
+    display: flex;
+    gap: 10px;
+    align-items: center;
+    font-size: 12px;
+    color: #000;
+}
+
+.option__counter__button {
+
+    background-color: white;
+    width: 30px;
+    height: 30px;
+    border: 1px solid var(--color_secondery);
+    color: var(--color_secondery);
+    cursor: pointer;
+}
+
+.option__counter__button:hover {
+    background-color: rgb(219, 219, 219);
+}
+
+.option__counter__button:disabled {
+    cursor: not-allowed;
+}
+
+.option__counter__number {}

@@ -1,0 +1,26 @@
+.footer {
+    width: 100%;
+    max-width: 1024px;
+    overflow: hidden;
+
+}
+
+.footer>p {
+    font-size: 12px;
+    font-weight: 300;
+}
+
+.footer__lists {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 50px;
+
+}
+
+.footer__lists ul li {
+    list-style: none;
+    margin-bottom: 15px;
+    font-size: 14px;
+    color: var(--color_secondery);
+    cursor: pointer;
+}

@@ -1,0 +1,31 @@
+.propertiList {
+    width: 100%;
+    max-width: 1024px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    gap: 10px;
+
+
+}
+
+.propertiList_item {
+    flex: 1;
+    cursor: pointer;
+
+}
+
+.propertiList_item_img {
+    width: 250px;
+    height: 130px;
+    object-fit: cover;
+}
+
+.propertiList_titles>h2 {
+    font-size: 18px;
+}
+
+.propertiList_titles>p {
+    font-size: 14px;
+    font-weight: 300;
+}

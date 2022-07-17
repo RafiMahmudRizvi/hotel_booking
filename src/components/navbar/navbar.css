@@ -1,0 +1,35 @@
+.navbar {
+    height: 3rem;
+    background-color: var(--color_primary);
+    display: flex;
+    justify-content: center;
+
+}
+
+.navbar__container {
+    width: 100%;
+    max-width: 64rem;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+}
+
+.navbar__logo {
+    font-weight: 500;
+
+}
+
+/* .navbar__items {
+
+
+} */
+
+.navbar__btn {
+    border: none;
+    margin: 1.25rem;
+    padding: 0.3rem 0.6rem;
+    cursor: pointer;
+    color: var(--color_primary);
+}
